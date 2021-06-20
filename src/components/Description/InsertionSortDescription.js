@@ -5,7 +5,7 @@ export default function InsertionSorttDescription() {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col md-6">
                     <h2 className="desc_header">Insertion Sort</h2>
                         <div className="desc_body">
                             <p>
@@ -27,7 +27,7 @@ export default function InsertionSorttDescription() {
                             </p>
                         </div>                       
                     </div>
-                    <div className="col">
+                    <div className="col-md-6">
                         <h2 className="performance"> Performance</h2>
                         <div className="row performance_body">
                             <div className="col">

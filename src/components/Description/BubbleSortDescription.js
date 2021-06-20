@@ -5,7 +5,7 @@ export default function BubbleSorttDescription() {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md-6">
                     <h2 className="desc_header">Bubble Sort</h2>
                         <div className="desc_body">
                             <p>
@@ -30,7 +30,7 @@ export default function BubbleSorttDescription() {
                     <div className="col">
                         <h2 className="performance"> Performance</h2>
                         <div className="row performance_body">
-                            <div className="col">
+                            <div className="col-md-6">
                                 <p>
                                    Worst-Case time complexity - O(n<sup>2</sup>)
                                 </p>

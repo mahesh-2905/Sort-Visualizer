@@ -5,7 +5,7 @@ export default function SelectionSorttDescription() {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md-6">
                     <h2 className="desc_header">Selection Sort</h2>
                         <div className="desc_body">
                             <p>
@@ -33,7 +33,7 @@ export default function SelectionSorttDescription() {
                     <div className="col">
                         <h2 className="performance"> Performance</h2>
                         <div className="row performance_body">
-                            <div className="col">
+                            <div className="col-md-6">
                                 <p>
                                    Worst-Case time complexity - O(n<sup>2</sup>)
                                 </p>
