@@ -156,7 +156,7 @@ class Sidebar extends Component{
           <Nav>
             <NavIcon >
               {
-                !this.state.sidebar?<p className ="main_logo" onClick={this.showSidebar.bind(this)}>Start Visualization <span><ArrowLeftIcon fontSize="large"/></span></p>:<div></div>
+                !this.state.sidebar?<p className ="main_logo" onClick={this.showSidebar.bind(this)}>Start Visualizing <span><ArrowLeftIcon fontSize="large"/></span></p>:<div></div>
               }
               <h1 className="text-center sub_header" style={{color:"white",fontWeight:'bold',display:'none',zIndex:'20'}}>Learn Sorting with Fun :)</h1>
             </NavIcon>
