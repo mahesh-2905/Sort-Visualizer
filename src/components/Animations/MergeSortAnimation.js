@@ -8,6 +8,7 @@ const MergeSortAnimation = (array,speed)=>{
     const play = document.getElementsByClassName('play')
     const navbar = document.getElementsByClassName('main_logo')
     const mainheader = document.getElementsByClassName('sub_header')
+
     mainheader[0].style.display='block'
     navbar[0].style.display='none'
     play[0].style.display = 'none'

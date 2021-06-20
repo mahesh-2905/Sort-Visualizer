@@ -14,7 +14,7 @@
 }
 .algo_options,.size_options,.visual_options,.speed_options{
     color: white;
-    width: 100%;
+    width: 50%;
     height:6vh;
     font-size: 1.1em;
     text-decoration: none;
@@ -27,6 +27,7 @@
 
 .generate{
     margin-top:40px;
+    width: 50%;
     font-size: 1.1em;
     color: white;
     cursor: pointer;
