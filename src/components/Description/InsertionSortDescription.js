@@ -1,9 +1,24 @@
 import React from 'react'
+import StopIcon from '@material-ui/icons/Stop';
 
 export default function InsertionSorttDescription() {
     return (
         <React.Fragment>
             <div className="container">
+                <div className="row">
+                        <div className="col" style={{color:"white"}}>
+                            <p>
+                                <StopIcon className="insert_cmp1"/>
+                                <StopIcon className="insert_cmp2"/>
+                                - Comparison &nbsp; |
+                                <StopIcon className="insert_swap"/>
+                                - Swapping
+                            </p>
+                            {/* <p>
+                            
+                            </p> */}
+                        </div>
+                    </div>
                 <div className="row">
                     <div className="col md-6">
                     <h2 className="desc_header">Insertion Sort</h2>

@@ -60,3 +60,16 @@ h2{
 .ref_link:hover{
     color: white;
 }
+.bubble_cmp1,.insert_cmp1,.merge_cmp1,.quick_cmp1,.select_cmp1{
+   
+    color: #fed219;
+}
+.bubble_cmp2,.insert_cmp2,.merge_cmp2,.quick_cmp2,.select_cmp2{
+    color: #0092cc;
+}
+.bubble_swap,.insert_swap,.quick_swap,.select_swap{
+    color: #e52c6a;
+}
+.quick_pivot{
+    color: #ff7129;
+}

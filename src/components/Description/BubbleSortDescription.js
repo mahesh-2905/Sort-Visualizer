@@ -1,9 +1,24 @@
 import React from 'react'
-
+import StopIcon from '@material-ui/icons/Stop';
 export default function BubbleSorttDescription() {
     return (
         <React.Fragment>
             <div className="container">
+                <div className="row">
+                    <div className="col" style={{color:"white"}}>
+                        <p>
+                            <StopIcon className="bubble_cmp1"/>
+                            <StopIcon className="bubble_cmp2"/>
+                            - Comparison &nbsp;|
+                            <StopIcon className="bubble_swap"/>
+                            - Swapping
+                        </p>
+                        {/* <p>
+                        <StopIcon className="bubble_swap"/>
+                        - Swapping
+                        </p> */}
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-md-6">
                     <h2 className="desc_header">Bubble Sort</h2>
