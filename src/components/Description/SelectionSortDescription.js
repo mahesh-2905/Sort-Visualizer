@@ -35,19 +35,19 @@ export default function SelectionSorttDescription() {
                         <div className="row performance_body">
                             <div className="col">
                                 <p>
-                                   Worst-Case time complexity 
+                                   Worst-Case time complexity - O(n<sup>2</sup>)
                                 </p>
                                 <p>
-                                   Average-Case time complexity 
+                                   Average-Case time complexity - O(n<sup>2</sup>)
                                 </p><p>
-                                   Best-Case time complexity 
+                                   Best-Case time complexity - O(n<sup>2</sup>)
                                 </p><p>
-                                   Worst-Case space complexity 
+                                   Worst-Case space complexity - O(1)
                                 </p>
 
 
                             </div>
-                            <div className="col">
+                            {/* <div className="col">
                                 <p>
                                     O(n<sup>2</sup>)
                                 </p>
@@ -61,7 +61,7 @@ export default function SelectionSorttDescription() {
                                     O(1)
                                 </p>
 
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

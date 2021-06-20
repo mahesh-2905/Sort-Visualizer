@@ -39,19 +39,19 @@ export default function MergeSortDescription() {
                         <div className="row performance_body">
                             <div className="col">
                                 <p>
-                                   Worst-Case time complexity 
+                                   Worst-Case time complexity - O(n log n)
                                 </p>
                                 <p>
-                                   Average-Case time complexity 
+                                   Average-Case time complexity - O(n log n)
                                 </p><p>
-                                   Best-Case time complexity 
+                                   Best-Case time complexity - O(n log n)
                                 </p><p>
-                                   Worst-Case space complexity 
+                                   Worst-Case space complexity - O(n)
                                 </p>
 
 
                             </div>
-                            <div className="col">
+                            {/* <div className="col">
                                 <p>
                                     O(n log n)
                                 </p>
@@ -65,7 +65,7 @@ export default function MergeSortDescription() {
                                     O(n)
                                 </p>
 
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
