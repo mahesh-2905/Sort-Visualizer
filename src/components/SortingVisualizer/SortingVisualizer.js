@@ -5,9 +5,11 @@ import InsertionSortAnimation from '../Animations/InsertionSortAnimation';
 import SelectionSortAnimations from '../Animations/SelctionSortAnimations';
 import MergeSortAnimation from '../Animations/MergeSortAnimation';
 import QuickSortAnimation from '../Animations/QuickSortAnimation';
+import HeapSortAnimation from  '../Animations/HeapSortAnimations';
 import Play from '../Controls/play'
 import MergeSortDescription from '../Description/MergeSortDescription';
 import QuickSortDescription from '../Description/QuickSortDescription';
+import HeapSortDescription from '../Description/HeapSortDescription'
 import BubbleSorttDescription from '../Description/BubbleSortDescription';
 import SelectionSorttDescription from '../Description/SelectionSortDescription';
 import InsertionSorttDescription from '../Description/InsertionSortDescription';
@@ -71,6 +73,12 @@ class SortingVisualizer extends Component{
                     this.setState({play:true})
                 },Math.ceil(((this.props.size)*((this.props.size)+1))*10))
                 return
+            case 'heap':
+                HeapSortAnimation(this.props.array,this.props.speed)
+                setTimeout(()=>{
+                    this.setState({play:true})
+                },Math.ceil(((this.props.size)*((this.props.size)+1))*10))
+                return
             default :
                 return this.props.array            
                   
@@ -92,6 +100,8 @@ class SortingVisualizer extends Component{
                     return <BubbleSorttDescription/>
                 case "quick":
                     return <QuickSortDescription/>
+                case "heap":
+                    return <HeapSortDescription/>
                 default:
                     return <Default/>
             }
